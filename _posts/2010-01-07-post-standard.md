@@ -1,32 +1,27 @@
 ---
-title: "Post: Standard"
-excerpt_separator: "<!--more-->"
+title: "JYACS放出公测"
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - JYACS
+  - DDLC
+  - Justyuri
 ---
 
-All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, "Oh, why can't you remain like this for ever!" This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.
+时隔7个月，JustYuri的AI总算差不多完成啦期间有很多优厨都在私信我问相关的信息，很抱歉现在才更新消息。那么，现在先容我做个介绍吧
 
-Mrs. Darling first heard of Peter when she was tidying up her children's minds. It is the nightly custom of every good mother after her children are asleep to rummage in their minds and put things straight for next morning, repacking into their proper places the many articles that have wandered during the day.
+什么是JYACS？
 
-<!--more-->
+JYACS是 JustYuri的submod。主要通过内置的设置来配置API密钥，地址，模型名称，发送请求来实现AI对话功能。本次放出的公测版本为Beta 2.0.0，先前的版本大多为内部测试。这一次主要是为了收集更广泛的数据，确认其在不同的设备、不同的系统上是否工作正常。作为一个Beta版本，你必须清楚它还会有缺陷之处，我强烈建议你在正式版发布后重新安装，以达到更好效果。
 
-This post has a manual excerpt `<!--more-->` set after the second paragraph. The following YAML Front Matter has also be applied:
+安装！
+注意：在安装前，请备份你的游戏文件，尤其是c盘存档的部分，一切由于使用JYACS而产生的存档损坏/丢失，我概不负责（因为我自己存档也丢过，不过那是使用了不恰当的renpy版本）
+安装JYACS非常简单，就和你安装别的submod一样。
 
-```yaml
-excerpt_separator: "<!--more-->"
-```
+首先，你需要拥有一个JustYuri本体，你可以在网页链接的莫盘资源整合里，或者百度贴吧的多多理财吧中获取到最新汉化版。如果你需要最新的生肉版本，可以加入JY官方的discord，也可以在百度贴吧的优里吧中，获取到相同资源。做好这一切，我们就可以开始了。我会尽可能说的简明易懂点。1.你需要一份JYACS的文件，直接下载这个帖子的就行2.把下载下来的文件解压...这一步不需要教程吧...3.把解压开的文件全部复制，粘贴在JY的game文件夹下，应该类似这个路径：D:\DokiDokiMods\Just Yuri1.8.5\game
+这就好了，不过你还需要去设置中配置API Key，地址，模型，这需要你自己找找看了，硅基流动之类的都有免费的key。JYACS准备的也有训练过的后端模型，目前由于bm25以及不稳定的英文表现，暂不提供使用
 
-If you could keep awake (but of course you can't) you would see your own mother doing this, and you would find it very interesting to watch her. It is quite like tidying up drawers. You would see her on her knees, I expect, lingering humorously over some of your contents, wondering where on earth you had picked this thing up, making discoveries sweet and not so sweet, pressing this to her cheek as if it were as nice as a kitten, and hurriedly stowing that out of sight. When you wake in the morning, the naughtiness and evil passions with which you went to bed have been folded up small and placed at the bottom of your mind and on the top, beautifully aired, are spread out your prettier thoughts, ready for you to put on.
-
-I don't know whether you have ever seen a map of a person's mind. Doctors sometimes draw maps of other parts of you, and your own map can become intensely interesting, but catch them trying to draw a map of a child's mind, which is not only confused, but keeps going round all the time. There are zigzag lines on it, just like your temperature on a card, and these are probably roads in the island, for the Neverland is always more or less an island, with astonishing splashes of colour here and there, and coral reefs and rakish-looking craft in the offing, and savages and lonely lairs, and gnomes who are mostly tailors, and caves through which a river runs, and princes with six elder brothers, and a hut fast going to decay, and one very small old lady with a hooked nose. It would be an easy map if that were all, but there is also first day at school, religion, fathers, the round pond, needle-work, murders, hangings, verbs that take the dative, chocolate pudding day, getting into braces, say ninety-nine, three-pence for pulling out your tooth yourself, and so on, and either these are part of the island or they are another map showing through, and it is all rather confusing, especially as nothing will stand still.
-
-Of course the Neverlands vary a good deal. John's, for instance, had a lagoon with flamingoes flying over it at which John was shooting, while Michael, who was very small, had a flamingo with lagoons flying over it. John lived in a boat turned upside down on the sands, Michael in a wigwam, Wendy in a house of leaves deftly sewn together. John had no friends, Michael had friends at night, Wendy had a pet wolf forsaken by its parents, but on the whole the Neverlands have a family resemblance, and if they stood still in a row you could say of them that they have each other's nose, and so forth. On these magic shores children at play are for ever beaching their coracles [simple boat]. We too have been there; we can still hear the sound of the surf, though we shall land no more.
-
-Of all delectable islands the Neverland is the snuggest and most compact, not large and sprawly, you know, with tedious distances between one adventure and another, but nicely crammed. When you play at it by day with the chairs and table-cloth, it is not in the least alarming, but in the two minutes before you go to sleep it becomes very real. That is why there are night-lights.
-
-Occasionally in her travels through her children's minds Mrs. Darling found things she could not understand, and of these quite the most perplexing was the word Peter. She knew of no Peter, and yet he was here and there in John and Michael's minds, while Wendy's began to be scrawled all over with him. The name stood out in bolder letters than any of the other words, and as Mrs. Darling gazed she felt that it had an oddly cocky appearance.
+好的，以上就是全部的引导了，再次强调。安装Beta即代表你可以接受报错，我不希望有人在遇到报错后对项目开喷。如果你真的遇到报错，可以在吧内发帖或者发邮件至jyacsdev@gmail.com，请附上根目录里的traceback和log，谢谢
+链接：
+123云盘：aHR0cHM6Ly93d3cuMTIzODY1LmNvbS9zL3VVbmhUZC1wMDlBQT9wd2Q9MmFSSCM=
+莫盘：aHR0cHM6Ly9kaXNrLm1vbmlrYS5sb3ZlL3MvWGVZSE8=
