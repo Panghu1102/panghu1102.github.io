@@ -69,7 +69,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://tieba.baidu.com/home/main?id=tb.1.d07df80c.a8EiNjQtA7cwWgVEwH0bmQ?t=1672895272&fr=index"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fas fa-fw fa-link"
       url: "https://github.com/Panghu1102"
     - label: "小红书"
       icon: "fas fa-fw fa-link"
