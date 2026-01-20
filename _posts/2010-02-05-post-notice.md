@@ -1,68 +1,27 @@
 ---
-title: "Post: Notice"
+title: "AltStore侧载安装教程"
 categories:
   - Blog
 tags:
-  - Post Formats
-  - notice
+  - ios
+  - 侧载
 ---
 
-A notice displays information that explains nearby content. Often used to call attention to a particular detail.
+同样，为了节省人力，这里不会放图片，需要的请前往小红书查看，或者给我发邮件。  
+Alt store能够像巨魔一样下载应用，今天来出一期使用及下载教程，这个方法是全版本通用哈。  
 
-When using Kramdown `{: .notice}` can be added after a sentence to assign the `.notice` to the `<p></p>` element. 
+1️⃣下载。你需要有一台win10以上的电脑或者一台比较新的Mac，用电脑浏览器打开altstore的官网，向下拉到最底，来进行下载。注意‼️这里一定要从官网下，不然可能会下载失败，甚至无法使用。（如图一）。  
 
-**Changes in Service:** We just updated our [privacy policy](#) here to better service our customers. We recommend reviewing the changes.
-{: .notice}
+2️⃣下载好后，你的电脑会出现一个altinstaller的文件夹（取决于你设置的下在哪个盘）打开他，里面会有两个文件，（如图二）点下面那个setup，他会让你解压（如图三）点全部解压就好了，解压好后，setup的图标会变成一个光碟的形状（如图四）。双击打开setup，就会进入安装程序了（如图五），一路点next就好了。随后，altstore就安装到电脑上了。  
 
-**Primary Notice:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. [Praesent libero](#). Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-{: .notice--primary}
+3️⃣如果你没有安装过itunes和icloud，他会提示没有找到（如图六）这里直接点下载，即download，他就会弹到浏览器，就开始下载了。如果你安装的是微软商店的itunes和icloud，从设置里卸载掉，然后再从官网或者这个窗口下就可以了。  
 
-**Info Notice:** Lorem ipsum dolor sit amet, [consectetur adipiscing elit](#). Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-{: .notice--info}
+4️⃣下载好itunes和icloud后，先打开这两个软件，登录上你的苹果账号。随后打开alt store，这个软件打开后不会有什么弹窗，他会出现在你电脑的右下方，一个棱形的标志，点开那个标志就会出现图七的方框，此时将你的手机用一根可靠的数据线与电脑相连，保证三个软件都在运行，这个十分重要‼️点击方框中的第二个，install altstore，输入你的appleid，不放心的可以注册个小号输进去。过几秒，altstore就会出现在你的手机上了。  
 
-**Warning Notice:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. [Integer nec odio](#). Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-{: .notice--warning}
+5️⃣这时你直接点是打不开（如图八），需要你在设置通用里信任一下才可以，如果你是ios16以上的设备，还需要在隐私与安全里把开发者模式打开才可以使用。  
 
-**Danger Notice:** Lorem ipsum dolor sit amet, [consectetur adipiscing](#) elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-{: .notice--danger}
+6️⃣第一次使用时，要输入你的appleid进行登录（如图九），进入后点我画圈那个➕号（图十）导入ipa就行了。  
 
-**Success Notice:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at [nibh elementum](#) imperdiet.
-{: .notice--success}
+这就是详细的下载教程和使用方法。  
 
-Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with `markdownify` is a good way to go.
-
-```html
-{% raw %}{% capture notice-2 %}
-#### New Site Features
-
-* You can now have cover images on blog pages
-* Drafts will now auto-save while writing
-{% endcapture %}{% endraw %}
-
-<div class="notice">{% raw %}{{ notice-2 | markdownify }}{% endraw %}</div>
-```
-
-{% capture notice-2 %}
-#### New Site Features
-
-* You can now have cover images on blog pages
-* Drafts will now auto-save while writing
-{% endcapture %}
-
-<div class="notice">
-  {{ notice-2 | markdownify }}
-</div>
-
-Or you could skip the capture and stick with straight HTML.
-
-```html
-<div class="notice">
-  <h4>Message</h4>
-  <p>A basic message.</p>
-</div>
-```
-
-<div class="notice">
-  <h4>Message</h4>
-  <p>A basic message.</p>
-</div>
+原帖子链接：http://xhslink.com/o/mCUxo7sQmp 
