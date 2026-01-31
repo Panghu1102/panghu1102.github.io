@@ -1,29 +1,24 @@
 ---
-title: "Welcome to Jekyll!"
+title: "几分钟，在ios上跑起win"
 date: 2019-04-18T15:34:30-04:00
 categories:
   - blog
 tags:
-  - Jekyll
-  - update
+  - ios
 ---
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+前一段时间，UTMSE在苹果商店上架了，但使用他依旧是一件难事，今天我就教大家如何创立虚拟机并且怎样编辑让他的速度翻倍，助你以后虚拟机不求人。在ios上玩出新花样
+1️⃣点开SE后，先点左上角的加号来新建虚拟机，如图一。  
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+2️⃣在添加镜像这一步，如果你用的是iso镜像那就bootdevice这里选择第二个，CD、DVD。如果用的img那就选第三个。注意‼️，一定要把最后一个打开，就那个legacy hardware，否则有很大概率失败。如图二，就是一个经典的错误示范，大家一定要规避！。
 
-Jekyll also offers powerful support for code snippets:
+3️⃣下一步，在硬件那一栏，架构和系统都不用管，但那个内存和cpu核心一定要能开多大开多大（内存需要多试一试，一定要有耐心）这个很影响虚拟机的速度。如图三。  
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
+4️⃣存储空间那，我推荐大家都填50g，50g基本是够用的，如果填太小的话，用一段时间满了，这个是不太好改的。如图四。  
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+5️⃣后面一路继续就行了，但设置完成后先不要急着运行，先长按虚拟机（如图五）选第一个编辑，进入虚拟机的设备管理界面（如图六）选第二个，系统，把强制多核，这个也可以有效提高速度（如图七）。
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+6️⃣这些设置完成后，就可以运行虚拟机了，因为这时一个SE版本，所以说运行速度是比较慢的，有时候不能心急，要多等他反应一会就好了
+
+
+这就是全部的教程了，按理说这样的虚拟机可以直接打开。但是给大家一句忠告，不要尝试在上面跑win10这类版本，试也不建议试，因为这是一个se版本，没有jit，运行速度会非常慢。唯一可以流畅跑的只有win2000或者xp。
