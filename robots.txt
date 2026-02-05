@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://panghu.qzz.io/sitemap.xml
