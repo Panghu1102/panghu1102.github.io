@@ -1,8 +1,14 @@
 ---
 permalink: /about/
-title: "About"
+title: "关于"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+你好，欢迎来到我的网站。  
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+我是一名开发爱好者，主要关注编程、计算机技术以及和 AI的方向。常用 Python和Java Scripts进行开发，也会探索各种有趣的技术栈和工具，把想法变成可以实际运行的项目。
+
+这些项目通常从一个小想法开始，然后一步步打磨成完整功能。
+
+这个网站主要用来记录我的项目、实验和技术笔记，也会分享一些开发过程中的思考与经验。这里的内容更多偏实践导向，关注“如何实现”和“如何优化”。
+
+如果你也对开发、技术探索或创意编程感兴趣，希望这里的内容能对你有启发。
