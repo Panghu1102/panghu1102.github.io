@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Panghu1102"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "有些好想法总会转瞬即逝，所以如果想到了，就勇敢的尝试一下吧！"
   links:
     - label: "JYACS"
       icon: "fas fa-fw fa-link"
