@@ -1,3 +1,12 @@
+---
+title: "一篇在ios上舒服玩gal！"
+categories:
+  - Blog
+tags:
+  - ios
+  - DDLC
+---
+
 今天来带大家在ios上玩gal，只要是以renpy为基础的exe就都可以玩。他甚至连apk都可以运行！
 	
 这里我推荐的应用是spark（图二），只要在Appstore里搜索renpy就好，出来第一个就是。至于下面的renpy reader和renpylinter，我通通都不推荐，里面有广告，最重要的是他们只兼容特定的renpy版本，也就是说，如果你要玩的游戏和它的版本不一致，就会开屏报错‼️
