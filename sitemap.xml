@@ -1,100 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
->
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
- <loc>https://panghu1102.github.io/</loc>
- <priority>0.3</priority>
- <lastmod>2026-01-19</lastmod>
- <changefreq>weekly</changefreq>
+  <loc>https://panghu.qzz.io/</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
 </url>
-
 <url>
- <loc>https://panghu1102.github.io/posts</loc>
- <priority>0.3</priority>
- <lastmod>2026-01-19</lastmod>
- <changefreq>weekly</changefreq>
+  <loc>https://panghu.qzz.io/posts</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
 </url>
-
 <url>
- <loc>https://panghu1102.github.io/categories</loc>
- <priority>0.3</priority>
- <lastmod>2026-01-19</lastmod>
- <changefreq>weekly</changefreq>
+  <loc>https://panghu.qzz.io/categories</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
 </url>
-
 <url>
- <loc>https://panghu1102.github.io/tags</loc>
- <priority>0.3</priority>
- <lastmod>2026-01-19</lastmod>
- <changefreq>weekly</changefreq>
+  <loc>https://panghu.qzz.io/tags</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
 </url>
-
 <url>
- <loc>https://panghu1102.github.io/about</loc>
- <priority>0.3</priority>
- <lastmod>2026-01-19</lastmod>
- <changefreq>weekly</changefreq>
+  <loc>https://panghu.qzz.io/about</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
-
 <url>
- <loc>https://panghu1102.github.io/blog/welcome-to-jekyll</loc>
- <priority>0.3</priority>
- <lastmod>2026-01-19</lastmod>
- <changefreq>weekly</changefreq>
+  <loc>https://panghu.qzz.io/blog/post-iosgalplay</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
 </url>
-
 <url>
- <loc>https://panghu1102.github.io/blog/post-link</loc>
- <priority>0.3</priority>
- <lastmod>2026-01-19</lastmod>
- <changefreq>weekly</changefreq>
+  <loc>https://panghu.qzz.io/blog/post-mustread</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
 </url>
-
 <url>
- <loc>https://panghu1102.github.io/blog/post-quote</loc>
- <priority>0.3</priority>
- <lastmod>2026-01-19</lastmod>
- <changefreq>weekly</changefreq>
+  <loc>https://panghu.qzz.io/blog/welcome-to-jekyll</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
 </url>
-
 <url>
- <loc>https://panghu1102.github.io/blog/post-notice</loc>
- <priority>0.3</priority>
- <lastmod>2026-01-19</lastmod>
- <changefreq>weekly</changefreq>
+  <loc>https://panghu.qzz.io/blog/post-link</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
 </url>
-
 <url>
- <loc>https://panghu1102.github.io/blog/post-chat</loc>
- <priority>0.3</priority>
- <lastmod>2026-01-19</lastmod>
- <changefreq>weekly</changefreq>
+  <loc>https://panghu.qzz.io/blog/post-quote</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
 </url>
-
 <url>
- <loc>https://panghu1102.github.io/page2</loc>
- <priority>0.3</priority>
- <lastmod>2026-01-19</lastmod>
- <changefreq>weekly</changefreq>
+  <loc>https://panghu.qzz.io/page2</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
 </url>
-
 <url>
- <loc>https://panghu1102.github.io/feed.xml</loc>
- <priority>0.3</priority>
- <lastmod>2026-01-19</lastmod>
- <changefreq>weekly</changefreq>
+  <loc>https://panghu.qzz.io/feed.xml</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
 </url>
-
 <url>
- <loc>https://panghu1102.github.io</loc>
- <priority>0.3</priority>
- <lastmod>2026-01-19</lastmod>
- <changefreq>weekly</changefreq>
+  <loc>https://panghu.qzz.io/blog/post-notice</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.6</priority>
 </url>
-
+<url>
+  <loc>https://panghu.qzz.io/blog/post-standard</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://panghu.qzz.io/blog/post-modified</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://panghu.qzz.io/blog/post-chat</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://panghu.qzz.io/cdn-cgi/l/email-protection</loc>
+  <lastmod>2026-02-12</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.6</priority>
+</url>
 </urlset>
