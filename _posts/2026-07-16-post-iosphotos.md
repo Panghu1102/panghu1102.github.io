@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "白嫖空间！ios共享相册设置教程！"
 date: 2026-07-16
 categories: blog
