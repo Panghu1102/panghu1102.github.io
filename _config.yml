@@ -9,13 +9,9 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Panghu1102
 email: Ph101102@163.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Panghu1102的博客！欢迎访问！
 twitter_username: Panghu1102
 github_username: Panghu1102
@@ -25,28 +21,14 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -60,9 +42,6 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "有些好想法总会转瞬即逝，所以如果想到了，就勇敢的尝试一下吧！"
   links:
-    - label: "JYACS"
-      icon: "fas fa-fw fa-link"
-      url: "https://jyacs.qzz.io"
     - label: "贴吧"
       icon: "fas fa-fw fa-link"
       url: "https://tieba.baidu.com/home/main?id=tb.1.d07df80c.a8EiNjQtA7cwWgVEwH0bmQ?t=1672895272&fr=index"
@@ -86,7 +65,6 @@ footer:
       url: "https://www.xiaohongshu.com/user/profile/63e64f0f000000002600784a?xsec_token=YB6tdTc5ICPxK5P8K8xUDP23T4nMYVDrRfpsPeKC7M9cI=&xsec_source=app_share&xhsshare=CopyLink&shareRedId=ODlHNjdLNE82NzUyOTgwNjg5OTc7PTpK&apptime=1768901345&share_id=4c7bca359d9a42339cb1e4ce78d53c60"
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -97,7 +75,6 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
       path: "_pages"
       type: pages
